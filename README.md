@@ -5,17 +5,19 @@ After change need to run speparate command
 1) Start backend with 
 
 ```bash
-npm run server
+yarn install
+npm start
 ```
 
 2) Start react view
 ```bash
-npm run react
+yarn install
+npm run client
 ```
 
 
-1) go to src folder and run the npm run server
-2) in the main folder run npm run react
+1) go to backend folder and run the backend
+2) in the main folder run npm run client
 3) the channel description is removed
-4)There is no database attached
+4)There is mongodb atlas database attach. you can interact from anywhere or you can test the api from postman to test the rest api's
 
